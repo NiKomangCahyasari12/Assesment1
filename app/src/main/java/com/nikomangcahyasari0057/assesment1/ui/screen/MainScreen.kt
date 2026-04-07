@@ -1,5 +1,7 @@
 package com.nikomangcahyasari0057.assesment1.ui.screen
 
+import android.content.Context
+import android.content.Intent
 import android.content.res.Configuration
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -36,6 +38,7 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
@@ -97,6 +100,8 @@ fun ScreenContent(modifier: Modifier = Modifier) {
     )
 
     var expanded by rememberSaveable { mutableStateOf(false) }
+
+    val context = LocalContext.current
 
     Column(
         modifier = modifier.fillMaxSize()
@@ -192,6 +197,11 @@ fun ScreenContent(modifier: Modifier = Modifier) {
         }
 
         if (hasil != 0) {
+
+            val message = stringResource(R.string.bagikan_template,
+                jam,aktivitas,stringResource(hasil).uppercase()
+                )
+
             HorizontalDivider(
                 modifier = Modifier.padding(vertical = 8.dp),
                 thickness = 1.dp
@@ -213,6 +223,14 @@ fun ScreenContent(modifier: Modifier = Modifier) {
                     text = stringResource(hasil),
                     style = MaterialTheme.typography.headlineLarge
                 )
+
+                Button(
+                    onClick = { shareData(context, message) },
+                    modifier = Modifier.padding(top = 24.dp),
+                    contentPadding = PaddingValues(horizontal = 32.dp, vertical = 16.dp)
+                ) {
+                    Text(text = stringResource(R.string.bagikan))
+                }
             }
         }
     }
@@ -224,6 +242,17 @@ private fun getKategori(jam: Int): Int {
         else -> R.string.kecanduan
     }
 }
+
+private fun shareData(context: Context, message: String) {
+    val shareIntent = Intent(Intent.ACTION_SEND).apply {
+        type = "text/plain"
+        putExtra(Intent.EXTRA_TEXT, message)
+    }
+    if (shareIntent.resolveActivity(context.packageManager) != null) {
+        context.startActivity(shareIntent)
+    }
+}
+
 @Composable
 fun IconPicker(isError: Boolean, unit: String) {
     if (isError) {

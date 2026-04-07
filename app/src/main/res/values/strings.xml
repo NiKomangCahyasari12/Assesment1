@@ -13,6 +13,8 @@
     <string name="waspada">Waspada</string>
     <string name="kecanduan">Kecanduan</string>
     <string name="input_invalid">Tidak boleh kosong</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="bagikan_template">Hasil Analisis Penggunaan HP\n\nJam Penggunaan: %1$s jam\nAktivitas: %2$s\n\nKategori: %3$s\n\nCek penggunaan HP kamu juga dengan aplikasi Daily Screen Time!</string>
     <string name="tentang_aplikasi">Tentang Aplikasi</string>
     <string name="copyright">Daily Screen Time adalah aplikasi sederhana yang digunakan untuk membantu pengguna memperkirakan
         apakah penggunaan smartphone sehari-hari masih dalam batas wajar atau tidak.\n\nPengguna cukup memasukkan jumlah
