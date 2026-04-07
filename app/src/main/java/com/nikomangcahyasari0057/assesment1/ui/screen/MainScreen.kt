@@ -32,7 +32,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -82,13 +82,13 @@ fun MainScreen(navController: NavHostController) {
 @Composable
 fun ScreenContent(modifier: Modifier = Modifier) {
 
-    var jam by remember { mutableStateOf("") }
-    var jamError by remember { mutableStateOf(false) }
+    var jam by rememberSaveable() { mutableStateOf("") }
+    var jamError by rememberSaveable() { mutableStateOf(false) }
 
-    var aktivitas by remember { mutableStateOf("") }
-    var aktivitasError by remember { mutableStateOf(false) }
+    var aktivitas by rememberSaveable() { mutableStateOf("") }
+    var aktivitasError by rememberSaveable() { mutableStateOf(false) }
 
-    var hasil by remember { mutableIntStateOf(0) }
+    var hasil by rememberSaveable() { mutableIntStateOf(0) }
 
     val aktivitasList = listOf(
         stringResource(R.string.sosial_media),
@@ -96,7 +96,7 @@ fun ScreenContent(modifier: Modifier = Modifier) {
         stringResource(R.string.nonton_film)
     )
 
-    var expanded by remember { mutableStateOf(false) }
+    var expanded by rememberSaveable() { mutableStateOf(false) }
 
     Column(
         modifier = modifier.fillMaxSize()
