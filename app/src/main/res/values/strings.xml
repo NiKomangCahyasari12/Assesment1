@@ -12,5 +12,14 @@
     <string name="normal">Normal</string>
     <string name="waspada">Waspada</string>
     <string name="kecanduan">Kecanduan</string>
-    <string name="input_ivalid">Tidak boleh kosong</string>
+    <string name="input_invalid">Tidak boleh kosong</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="copyright">Daily Screen Time adalah aplikasi sederhana yang digunakan untuk membantu pengguna memperkirakan
+        apakah penggunaan smartphone sehari-hari masih dalam batas wajar atau tidak.\n\nPengguna cukup memasukkan jumlah
+        jam penggunaan HP dan memilih aktivitas utama yang paling sering dilakukan, seperti media sosial, bermain game,
+        atau menonton film.\n\nBerdasarkan input tersebut, aplikasi akan menampilkan kategori hasil seperti normal,
+        waspada, atau kecanduan. Hasil ini hanya bersifat indikasi sederhana dan tidak menggantikan penilaian
+        profesional.\n\nAplikasi ini dibuat sebagai media pembelajaran sekaligus untuk meningkatkan kesadaran
+        pengguna terhadap kebiasaan penggunaan smartphone dalam kehidupan sehari-hari.\n\nCopyright © 2026 Ni Komang Cahya Sari.\nAll
+        rights reserved.</string>
 </resources>

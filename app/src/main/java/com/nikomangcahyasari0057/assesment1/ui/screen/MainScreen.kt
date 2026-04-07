@@ -220,7 +220,7 @@ fun IconPicker(isError: Boolean, unit: String) {
 @Composable
 fun ErrorHint(isError: Boolean) {
     if (isError) {
-        Text(text = stringResource(R.string.input_ivalid))
+        Text(text = stringResource(R.string.input_invalid))
     }
 }
 
