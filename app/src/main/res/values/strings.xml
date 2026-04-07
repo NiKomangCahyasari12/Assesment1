@@ -12,4 +12,5 @@
     <string name="normal">Normal</string>
     <string name="waspada">Waspada</string>
     <string name="kecanduan">Kecanduan</string>
+    <string name="input_ivalid">Tidak boleh kosong</string>
 </resources>
