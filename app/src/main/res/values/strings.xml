@@ -6,5 +6,10 @@
     <string name="pilih_aktivitas">Pilih Aktivitas</string>
     <string name="sosial_media">Sosial Media</string>
     <string name="game">Game</string>
-    <string name="belajar">Belajar</string>
+    <string name="nonton_film">Nonton Film</string>
+    <string name="tombol_cek">Cek Penggunaan</string>
+    <string name="kategori">Kategori: %1$s</string>
+    <string name="normal">Normal</string>
+    <string name="waspada">Waspada</string>
+    <string name="kecanduan">Kecanduan</string>
 </resources>
