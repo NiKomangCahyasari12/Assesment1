@@ -19,5 +19,6 @@
     <string name="copyright">Daily Screen Time is a simple application designed to help users estimate whether their daily smartphone usage is still within a reasonable limit or not.\n\nUsers only need to enter the number of hours they use their phone and select their main activity,
         such as social media, gaming, or watching movies.\n\nBased on this input, the application will display a result category such as normal, warning, or addicted. This result is only a simple indication and does not replace professional assessment.\n\nThis application was created as a
         learning medium as well as to increase user awareness of smartphone usage habits in daily life.\n\nCopyright © 2026 Ni Komang Cahya Sari.\nAll rights reserved.</string>
+    <string name="deskripsi">An illustration of someone using a smartphone with many notifications, highlighting the importance of controlling and tracking usage time.</string>
     <string name="kembali">Back</string>
 </resources>
