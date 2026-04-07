@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Daily Screen Time</string>
+    <string name="intro">Aplikasi ini membantu kamu mengetahui apakah penggunaan HP kamu masih normal atau sudah berlebihan.
+        Masukkan jumlah jam penggunaan dan pilih aktivitas utama kamu setiap hari.</string>
+    <string name="jam_penggunaan">Jam penggunaan per hari</string>
+    <string name="pilih_aktivitas">Pilih Aktivitas</string>
+    <string name="sosial_media">Sosial Media</string>
+    <string name="game">Game</string>
+    <string name="belajar">Belajar</string>
 </resources>
