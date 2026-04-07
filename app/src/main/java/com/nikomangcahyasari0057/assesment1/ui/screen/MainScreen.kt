@@ -82,13 +82,13 @@ fun MainScreen(navController: NavHostController) {
 @Composable
 fun ScreenContent(modifier: Modifier = Modifier) {
 
-    var jam by rememberSaveable() { mutableStateOf("") }
-    var jamError by rememberSaveable() { mutableStateOf(false) }
+    var jam by rememberSaveable { mutableStateOf("") }
+    var jamError by rememberSaveable { mutableStateOf(false) }
 
-    var aktivitas by rememberSaveable() { mutableStateOf("") }
-    var aktivitasError by rememberSaveable() { mutableStateOf(false) }
+    var aktivitas by rememberSaveable { mutableStateOf("") }
+    var aktivitasError by rememberSaveable { mutableStateOf(false) }
 
-    var hasil by rememberSaveable() { mutableIntStateOf(0) }
+    var hasil by rememberSaveable { mutableIntStateOf(0) }
 
     val aktivitasList = listOf(
         stringResource(R.string.sosial_media),
@@ -96,7 +96,7 @@ fun ScreenContent(modifier: Modifier = Modifier) {
         stringResource(R.string.nonton_film)
     )
 
-    var expanded by rememberSaveable() { mutableStateOf(false) }
+    var expanded by rememberSaveable { mutableStateOf(false) }
 
     Column(
         modifier = modifier.fillMaxSize()
