@@ -1,28 +1,23 @@
 <resources>
     <string name="app_name">Daily Screen Time</string>
-    <string name="intro">Aplikasi ini membantu kamu mengetahui apakah penggunaan HP kamu masih normal atau sudah berlebihan.
-        Masukkan jumlah jam penggunaan dan pilih aktivitas utama kamu setiap hari.</string>
-    <string name="jam_penggunaan">Jam penggunaan per hari</string>
-    <string name="pilih_aktivitas">Pilih Aktivitas</string>
-    <string name="sosial_media">Sosial Media</string>
+    <string name="intro">This application helps you determine whether your phone usage is still normal or already excessive.
+        Enter the number of hours of usage and select your main daily activity.</string>
+    <string name="jam_penggunaan">Daily usage hours</string>
+    <string name="pilih_aktivitas">Select Activity</string>
+    <string name="sosial_media">Social Media</string>
     <string name="game">Game</string>
-    <string name="nonton_film">Nonton Film</string>
-    <string name="tombol_cek">Cek Penggunaan</string>
-    <string name="kategori">Kategori: %1$s</string>
+    <string name="nonton_film">Watching Movies</string>
+    <string name="tombol_cek">Check Usage</string>
+    <string name="kategori">Category: %1$s</string>
     <string name="normal">Normal</string>
-    <string name="waspada">Waspada</string>
-    <string name="kecanduan">Kecanduan</string>
-    <string name="input_invalid">Tidak boleh kosong</string>
-    <string name="bagikan">Bagikan</string>
-    <string name="bagikan_template">Hasil Analisis Penggunaan HP\n\nJam Penggunaan: %1$s jam\nAktivitas: %2$s\n\nKategori: %3$s\n\nCek penggunaan HP kamu juga dengan aplikasi Daily Screen Time!</string>
-    <string name="tentang_aplikasi">Tentang Aplikasi</string>
-    <string name="copyright">Daily Screen Time adalah aplikasi sederhana yang digunakan untuk membantu pengguna memperkirakan
-        apakah penggunaan smartphone sehari-hari masih dalam batas wajar atau tidak.\n\nPengguna cukup memasukkan jumlah
-        jam penggunaan HP dan memilih aktivitas utama yang paling sering dilakukan, seperti media sosial, bermain game,
-        atau menonton film.\n\nBerdasarkan input tersebut, aplikasi akan menampilkan kategori hasil seperti normal,
-        waspada, atau kecanduan. Hasil ini hanya bersifat indikasi sederhana dan tidak menggantikan penilaian
-        profesional.\n\nAplikasi ini dibuat sebagai media pembelajaran sekaligus untuk meningkatkan kesadaran
-        pengguna terhadap kebiasaan penggunaan smartphone dalam kehidupan sehari-hari.\n\nCopyright © 2026 Ni Komang Cahya Sari.\nAll
-        rights reserved.</string>
-    <string name="kembali">Kembali</string>
+    <string name="waspada">Warning</string>
+    <string name="kecanduan">Addicted</string>
+    <string name="input_invalid">Cannot be empty</string>
+    <string name="bagikan">Share</string>
+    <string name="bagikan_template">Phone Usage Analysis Result\n\nUsage Time: %1$s hours\nActivity: %2$s\n\nCategory: %3$s\n\nCheck your phone usage too with the Daily Screen Time app!</string>
+    <string name="tentang_aplikasi">About Application</string>
+    <string name="copyright">Daily Screen Time is a simple application designed to help users estimate whether their daily smartphone usage is still within a reasonable limit or not.\n\nUsers only need to enter the number of hours they use their phone and select their main activity,
+        such as social media, gaming, or watching movies.\n\nBased on this input, the application will display a result category such as normal, warning, or addicted. This result is only a simple indication and does not replace professional assessment.\n\nThis application was created as a
+        learning medium as well as to increase user awareness of smartphone usage habits in daily life.\n\nCopyright © 2026 Ni Komang Cahya Sari.\nAll rights reserved.</string>
+    <string name="kembali">Back</string>
 </resources>
