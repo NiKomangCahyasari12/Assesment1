@@ -227,7 +227,7 @@ fun ScreenContent(modifier: Modifier = Modifier) {
             ) {
 
                 Text(
-                    text = "Hasil Analisis",
+                    text = stringResource(R.string.hasil_analisis),
                     style = MaterialTheme.typography.bodyLarge
                 )
 

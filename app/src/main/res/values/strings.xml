@@ -13,6 +13,7 @@
     <string name="waspada">Warning</string>
     <string name="kecanduan">Addicted</string>
     <string name="input_invalid">Cannot be empty</string>
+    <string name="hasil_analisis">Analysis Result</string>
     <string name="bagikan">Share</string>
     <string name="bagikan_template">Phone Usage Analysis Result\n\nUsage Time: %1$s hours\nActivity: %2$s\n\nCategory: %3$s\n\nCheck your phone usage too with the Daily Screen Time app!</string>
     <string name="tentang_aplikasi">About Application</string>
